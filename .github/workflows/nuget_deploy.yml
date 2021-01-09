@@ -15,5 +15,5 @@ jobs:
     - run: dotnet build --configuration Release
     - run: dotnet nuget push $MODULE_NAME/bin/Release/$MODULE_NAME.*.nupkg -k $NUGET_API_TOKEN -s https://api.nuget.org/v3/index.json
       env:
-        MODULE_NAME: VisitorGenerator
+        MODULE_NAME: Generators
         NUGET_API_TOKEN: ${{ secrets.NUGET_API_TOKEN }}
