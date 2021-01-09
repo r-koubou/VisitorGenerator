@@ -5,6 +5,6 @@
 /contentModel.xml
 /modules.xml
 /projectSettingsUpdater.xml
-/.idea.CSVisitorGenerator.iml
+/.idea.VisitorGenerator.iml
 # エディターベースの HTTP クライアントリクエスト
 /httpRequests/
