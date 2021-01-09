@@ -1,0 +1,19 @@
+name: nuget_deploy
+on:
+  push:
+    branches:
+      - release/*
+
+jobs:
+  nuget_deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '5.0.100'
+    - run: dotnet build --configuration Release
+    - run: dotnet nuget push $MODULE_NAME/bin/Release/$MODULE_NAME.*.nupkg -k $NUGET_API_TOKEN -s https://api.nuget.org/v3/index.json
+      env:
+        MODULE_NAME: VisitorGenerator
+        NUGET_API_TOKEN: ${{ secrets.NUGET_API_TOKEN }}

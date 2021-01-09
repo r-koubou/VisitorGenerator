@@ -6,7 +6,7 @@
         <Nullable>enable</Nullable>
         <AssemblyName>VisitorGenerator</AssemblyName>
         <RootNamespace>VisitorGenerator</RootNamespace>
-        <PackageVersion>1.0.0</PackageVersion>
+        <PackageVersion>1.0.1</PackageVersion>
         <Authors>R-Koubou</Authors>
         <Copyright>R-Koubou</Copyright>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
