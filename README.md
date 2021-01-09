@@ -12,7 +12,7 @@ from [Nuget](https://www.nuget.org/packages/VisitorGenerator/)
 
 ## Usage
 
-Use an  `VisitTo` attribute to generate "Visit" method.
+Use a  `VisitTo` attribute to generate "Visit" method.
 
 ```c#
 public interface INode {}
@@ -39,7 +39,7 @@ public partial interface IChildNodeVisitor<T>
 
 
 
-If use an `VisitDynamicFrom`, generate a type dynamic synatax code.
+If use a `VisitDynamicFrom`, generate a type dynamic synatax code.
 
 ```c#
 public interface INode {}
