@@ -1,6 +1,6 @@
 # Visitor generator
 
-A C# Visitor pattern interface generator with C# 9.0 Source Generator
+Create C# Visitor pattern interface code with C# 9.0 Source Generator
 
 
 

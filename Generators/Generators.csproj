@@ -14,7 +14,7 @@
         <RepositoryUrl>https://github.com/r-koubou/VisitorGenerator.git</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Description>A C# Visitor pattern interface generator with C# 9.0 Source Generator</Description>
+        <Description>Create C# Visitor pattern interface code with C# 9.0 Source Generator</Description>
     </PropertyGroup>
 
     <ItemGroup>
